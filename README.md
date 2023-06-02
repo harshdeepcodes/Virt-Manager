@@ -1,3 +1,3 @@
-# Virt-Manager
+# Introduction
 
-sudo virsh net-start default
+It's a script to install and setup Virt-Manager for Arch Linux
