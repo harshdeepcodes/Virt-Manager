@@ -22,4 +22,4 @@ echo "options kvm-amd nested=1" | sudo tee /etc/modprobe.d/kvm-amd.conf
 
 systool -m kvm_amd -v | grep nested
 
-cat /sys/module/kvm_amd/parameters/nested
+sudo virsh net-start default
